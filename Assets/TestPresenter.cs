@@ -16,7 +16,7 @@ public class TestPresenter
         model.num.Subscribe(num => view.SetNum(num))
             .AddTo(view);
         
-        view.onClick.Subscribe(_ => model.AddNum(1))
+        view.ButtonClick.Subscribe(_ => model.AddNum(1))
             .AddTo(view);
     }
 }

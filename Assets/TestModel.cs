@@ -7,7 +7,6 @@ public class TestModel
     {
         num = new ReactiveProperty<int>(0);
     }
-    
     public void AddNum(int value)
     {
         num.Value += value;
