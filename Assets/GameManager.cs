@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // aaa
+    // aaa‚ ‚ ‚ 
     [SerializeField] private TestView view;
     public TestModel model{ get; private set; }
     public TestPresenter presenter{ get; private set; }
