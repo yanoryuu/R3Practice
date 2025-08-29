@@ -17,8 +17,6 @@ public class TestView : MonoBehaviour
         ButtonClick = new Subject<Unit>();
         
         button.onClick.AddListener(() => ButtonClick.OnNext(Unit.Default));
-        
-        
     }
     public void SetNum(int num)
     {
