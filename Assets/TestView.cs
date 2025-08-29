@@ -7,6 +7,8 @@ public class TestView : MonoBehaviour
     [SerializeField] private Text text;
     
     [SerializeField] private Button button;
+
+    public Button SubButton;
     
     public Subject<Unit> ButtonClick;
     
@@ -15,6 +17,8 @@ public class TestView : MonoBehaviour
         ButtonClick = new Subject<Unit>();
         
         button.onClick.AddListener(() => ButtonClick.OnNext(Unit.Default));
+        
+        
     }
     public void SetNum(int num)
     {

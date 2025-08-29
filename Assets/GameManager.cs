@@ -6,11 +6,15 @@ public class GameManager : MonoBehaviour
     public TestModel model{ get; private set; }
     public TestPresenter presenter{ get; private set; }
     
+    public Model model2 { get; private set; }
+    
     private void Awake()
     {
         model = new TestModel();
         
-        presenter = new TestPresenter(model,view);
+        model2 = new Model();
+        
+        presenter = new TestPresenter(model,view,model2);
         
         presenter.Bind();
     }

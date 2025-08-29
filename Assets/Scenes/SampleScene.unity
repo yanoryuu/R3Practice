@@ -674,7 +674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2016237932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 760940853}
   button: {fileID: 1691151349}
+  SubButton: {fileID: 0}
 --- !u!224 &2016237933
 RectTransform:
   m_ObjectHideFlags: 0
